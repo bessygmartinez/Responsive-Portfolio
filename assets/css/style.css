@@ -172,7 +172,9 @@ td {
       height: 200px;
   }
 
-  @media only screen and (max-width: 980px) {
+/* Media queries below */
+
+@media only screen and (max-width: 980px) {
 
     nav {
         position: static;
@@ -198,6 +200,10 @@ td {
         font-size: 2.5vw;
         margin: 0;
         line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 3vw;
     }
 
     .menu {
@@ -232,11 +238,90 @@ td {
   }
 
 
-  @media only screen and (max-width: 768px) {
-      
-}
+@media only screen and (max-width: 768px) {
+
+    nav {
+        position: static;
+        max-height: 100px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .title {
+        position: static;
+        color: white;
+        background-color: #4aaaa5;
+        width: 280px;
+        max-height: 100px;
+        float: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3vw;
+        margin: 0;
+        line-height: 4;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    .menu {
+        position: static;
+        margin-top: -50px;
+        margin-right: 5%;
+        padding: 0;
+        font-size: 2.5vw;
+        line-height: 1;
+    }
+
+    .mainbody {
+        background-color: #ffffff;
+        max-width: 90%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        border: solid 1.5px #e7e6e6;
+        padding: 30px 30px 10px 30px;
+        flex: 1 0 auto;
+    }
+
+    .aboutimg {
+            float: left;
+            margin: 0 20px 20px 0;
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+    }
+
+    table {
+        margin-left:auto;
+        margin-right:auto;
+        padding: 0;
+    }
+
+    .tblimg {
+        width: 280px;
+    }
+
+    .portimg {
+        width: 280px;
+        height: 280px;
+    }
+
+    .portlink {
+        font-size: 3vw;
+    }
+
+  }
 
 
-@media only screen and (max-width: 640px) {
-      
+  @media only screen and (max-width: 640px) {
+
+
 }
