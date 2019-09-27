@@ -176,7 +176,7 @@ td {
 
     nav {
         position: static;
-        max-height: 50px;
+        max-height: 80px;
         margin-top: 0;
         padding: 0;
     }
@@ -186,7 +186,7 @@ td {
         color: white;
         background-color: #4aaaa5;
         width: 280px;
-        max-height: 50px;
+        max-height: 80px;
         float: none;
         margin: 0;
         padding: 0;
@@ -197,7 +197,6 @@ td {
     h1 {
         font-size: 2vw;
         margin: 0;
-        line-height: 2.5;
     }
 
     .menu {
