@@ -111,14 +111,10 @@ nav {
     width: 300px;
 }
 
-td {
-    margin: 15px;
-  }
-
   .tblimg {
     position: relative;
     display: inline-block;
-    padding: 0;
+    margin: 20px;
     }
   
   .text-block {
@@ -298,15 +294,6 @@ td {
             height: auto;
     }
 
-    table {
-        margin-left:auto;
-        margin-right:auto;
-        padding: 0;
-    }
-
-    .tblimg {
-        width: 280px;
-    }
 
     .portimg {
         width: 280px;
@@ -336,7 +323,7 @@ td {
         background-color: white;
         width: 100%;
         border-bottom: solid 1.5px #cccccc;
-        max-height: 120px;
+        max-height: 200px;
     }
 
     h1 {
@@ -348,14 +335,13 @@ td {
     }
 
     h2 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .menu {
-        position: unset;
         display:block;
         float: none;
-        margin-top: 5px;
+        margin-top: 0;
         margin-right: auto;
         margin-left: auto;
         font-size: 3vw;
@@ -372,41 +358,30 @@ td {
         box-sizing: border-box;
         border: solid 1.5px #e7e6e6;
         padding: 30px 30px 10px 30px;
-        flex: 1 0 auto;
     }
 
     .aboutimg {
-            float: left;
-            margin: 0 20px 20px 0;
-            width: 100%;
-            max-width: 250px;
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+            max-width: 80%;
             height: auto;
     }
 
     table {
-        margin-left:auto;
-        margin-right:auto;
-        padding: 0;
-    }
-
-    tr {
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
     }
 
-    .tblimg {
-        width: 250px;
-        margin: 20px;
-    }
 
     .portimg {
-        width: 250px;
-        height: 250px;
+        max-width: 100%;
+        height: auto;
     }
 
     .portlink {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
 
